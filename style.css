@@ -8,7 +8,7 @@ body {
 
 /* START SCREEN BACKGROUND */
 .start-screen {
-    background-image: url("dellullisday.png"); 
+    background-image: url("dellullisday.png.png"); 
     background-size: cover;
     background-position: center;
     height: 100vh;
