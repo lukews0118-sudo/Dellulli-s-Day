@@ -23,7 +23,7 @@ body {
    position: absolute;  /* 👈 this lets it move */
 
     top: 90%;            /* move up/down */
-    left: 40%;           /* move left/right */
+    left: 35%;           /* move left/right */
     transform: translate(-50%, -50%);
 
     padding: 20px 60px;
