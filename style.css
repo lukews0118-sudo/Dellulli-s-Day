@@ -15,20 +15,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 /* PLAY BUTTON STYLE */
 #playButton {
+   position: absolute;  /* 👈 this lets it move */
+
+    top: 90%;            /* move up/down */
+    left: 20%;           /* move left/right */
+    transform: translate(-50%, -50%);
+
     padding: 20px 60px;
     font-size: 24px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 
-    /* You can change these */
     background-color: black;
     color: white;
-
+}
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
